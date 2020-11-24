@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="utf-8" />
+    <title>Output Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+      <div class="navigation__image">
+        <image alt="Brak zdjecia" class="navigation__image--logo" />
+      </div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">O Nas</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Oferta</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Cennik</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Referencje</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__slideshow">
+        <div class="header__mySlides">
+          <p class="heading-slides">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac
+            tincidunt nunc, vitae consequat libero. Sed lacinia aliquam mattis.
+            Etiam ac sollicitudin orci. Fusce nec mollis elit. Mauris eleifend
+            elementum.
+          </p>
+          <p class="header__mySlides--author">- Lorem ipsum</p>
+        </div>
+
+        <div class="header__mySlides">
+          <p class="heading-slides">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac
+            tincidunt nunc, vitae consequat libero. Sed lacinia aliquam mattis.
+          </p>
+          <p class="header__mySlides--author">- Lorem ipsum</p>
+        </div>
+
+        <div class="header__mySlides">
+          <p class="heading-slides">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac
+            tincidunt nunc, vitae consequat libero. Sed lacinia aliquam mattis.
+            Etiam ac sollicitudin orci.
+          </p>
+          <p class="header__mySlides--author">- Lorem ipsum</p>
+        </div>
+        <!-- Next/prev buttons -->
+        <a class="header__prev">&#10094;</a>
+        <a class="header__next">&#10095;</a>
+      </div>
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </header>
+
+    <main>
+      <!--Informations about company -->
+      <section class="section-about">
+        <h2 class="heading-about-us">Czym się zajmujemy</h2>
+        <div class="section-about-row">
+          <div class="section-about__text-box">
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque quis rhoncus nisi, commodo vulputate arcu. Duis in
+              massa id velit tincidunt luctus. Vivamus nec justo.
+            </p>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              id tempus erat, quis tristique est. Phasellus congue auctor dui,
+              nec consectetur odio efficitur sit amet. Mauris pulvinar efficitur
+              erat, quis tempor leo ornare ac. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. In fringilla bibendum justo, a
+              placerat ipsum volutpat.
+            </p>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              id tempus erat, quis tristique est. Phasellus congue auctor dui,
+              nec consectetur odio efficitur sit amet. Mauris pulvinar efficitur
+              erat, quis tempor leo ornare ac. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. In fringilla bibendum justo, a
+              placerat ipsum volutpat.
+            </p>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              at congue turpis, a sagittis justo. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Quisque gravida.
+            </p>
+          </div>
+          <div class="section-about__image-box">
+            <img
+              src="image/section-about-image.jpg"
+              alt="Brak zdjecia"
+              class="section-about__image"
+            />
+            <p>Tu bedzie zdjecie</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="section-features-row">
+          <div class="feature-box">
+            <i class="fas fa-hands-helping feature-box__icon"></i>
+            <h3 class="heading-tertiary">Explore the world</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fas fa-hands-helping feature-box__icon"></i>
+            <h3 class="heading-tertiary">Explore the world</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.
+            </p>
+          </div>
+          <div class="feature-box">
+            <i class="fas fa-hands-helping feature-box__icon"></i>
+            <h3 class="heading-tertiary">Explore the world</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fas fa-hands-helping feature-box__icon"></i>
+            <h3 class="heading-tertiary">Explore the world</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  <script src="index.bundle.js"></script></body>
+</html>
