@@ -2,7 +2,7 @@
 <html lang="pl-PL">
   <head>
     <meta charset="utf-8" />
-    <title>Output Management</title>
+    <title>HortiCalc</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
@@ -16,15 +16,16 @@
 
       <div class="navigation__background">&nbsp;</div>
       <div class="navigation__image">
-        <image alt="Brak zdjecia" class="navigation__image--logo" />
+        <a href="/index.html" class="navigation__image--logo"></a>
+        <!-- <a href="index.html" class="navigation__image--text">HortiCalc</a> -->
       </div>
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Home</a>
+            <a href="/index.html" class="navigation__link">Home</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">O Nas</a>
+            <a href="/aboutUs.html" class="navigation__link">O Nas</a>
           </li>
           <li class="navigation__item">
             <a href="#" class="navigation__link">Oferta</a>
@@ -48,7 +49,7 @@
           <span class="heading-primary--sub">zarządzania gospodarstwem</span>
         </h1>
 
-        <a href="" class="btn btn--white btn--animated"
+        <a href="https://horti.net.pl/" target="_blank" class="btn btn--white btn--animated"
           >Wypróbuj</a
         >
       </div>
@@ -93,12 +94,22 @@
             </p> -->
           </div>
           <div class="section-about__image-box">
-            <img
-              src="image/section-about-image.jpg"
-              alt="Brak zdjecia"
-              class="section-about__image"
-            />
-            <p>Tu bedzie zdjecie</p>
+            <div class="composition">
+              <div class="composition__photo composition__photo--p1"></div>
+              <div class="composition__photo composition__photo--p2"></div>
+              <div class="composition__photo composition__photo--p3"></div>
+              <!-- <img
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+              />
+
+              <img
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+              /> -->
+            </div>
           </div>
         </div>
       </section>
@@ -133,7 +144,7 @@
           </div>
 
           <div class="feature-box">
-            <i class="fas fa-cart-arrow-down feature-box__icon"></i>
+            <i class="fas fa-file-signature feature-box__icon"></i>
             <h3 class="heading-tertiary">Prosta dokumentacja wykonywanych zabiegów</h3>
             <!-- <p class="feature-box__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
@@ -180,7 +191,7 @@
         <div class="trial">
           <div class="trial-boxText">
             <h3 class="trial-header">Wypróbuj</h3>
-            <h3 class="trial-header"> Juz Dziś</h3>
+            <h3 class="trial-header"> Już Dziś</h3>
             <ul class="trial-list">
               <li class="trial-item">
                 <i class="fas fa-check-circle"></i>
@@ -195,7 +206,7 @@
                 <p>Szybka rejestracja</p>
               </li>
             </ul>
-            <button class="trial-btn" type="button">Wypróbuj</button>
+            <a href="https://horti.net.pl/" class="trial-btn" target="_blank">Wypróbuj</a>
           </div>
           <div class="trial-boxImage">
             <!-- <div class="image"></div> -->
@@ -206,7 +217,9 @@
     <footer class="footer-contact">
       <div class="contact">
         <div class="contact-boxfirst">
-          <div class="contact-boxfirst--image"><p>Tu bedzie logo</p></div>
+          <div class="contact-boxfirst--image">
+            <a href='/index.html' class='contact-boxfirst--image-logo'></a>
+          </div>
           <div class="contact-boxfirst--adress">
             <h4 class="header-footer">Kontakt:</h4>
             <p>Tel: 605 405 302</p>
